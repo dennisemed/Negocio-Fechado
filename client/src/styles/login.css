@@ -1,0 +1,63 @@
+* {
+    margin: 0
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.btn {
+    background-color: #212529;
+    color:  hsl(0, 0%, 100%);
+    border: none;
+    width: 100%;
+    padding: 6px;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    color: rgba(255, 200, 0, 1);
+    background-color: #212529;
+}
+
+btn::after, btn::cue {
+    color: rgba(255, 200, 0, 1);
+    background-color: #212529;
+}
+
+.card {
+    width: 450px;
+    height: auto;
+}
+
+.nav-brand {
+    margin-top: 50px;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.05rem;
+    color: rgb(78, 77, 77);
+    height: 1.5rem;
+    transition: 0.3s ease-in-out;
+    letter-spacing: 0.0625em;
+}
+
+.navbar-brand img {
+    margin-right: 5px;
+}
+
+.navbar-brand:hover {
+    color:rgb(49, 48, 48);
+}
+
+.navbar-brand a {
+    cursor: pointer;
+}
+
+span {
+    color: rgba(255, 200, 0, 1);
+}
